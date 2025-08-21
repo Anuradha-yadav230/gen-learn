@@ -30,7 +30,7 @@ export default function Layout() {
         <Sidebar isOpen={sidebarOpen} onToggle={() => setSidebarOpen(!sidebarOpen)} />
         
         {/* Main content */}
-        <main className="flex-1 lg:ml-0">
+        <main className="flex-1">
           <div className="h-full p-4 lg:p-8">
             <Outlet />
           </div>
